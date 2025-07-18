@@ -68,3 +68,15 @@ Configuration and generation stage happen consecutively and automatically.
 ### Building stage
 CMake run the correct build tools(compilers, linkers, static and dynamic analysis tools, tests, reporting tools,etc) to produce the final artifacts(executables, libraries).
 
+
+## Mastering command lines
+CMake is a collection of tools with 5 executables:
+- cmake
+- ctest
+- cpack
+- cmake-gui
+- ccmake
+
+### CMake command lines
+cmake is the main binary of CMake suite, provides some actions(also called modes):
+- generating buildsystem
